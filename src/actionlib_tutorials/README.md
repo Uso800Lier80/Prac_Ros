@@ -12,4 +12,6 @@ HWインタフェースです。アームを持っている側の機器で動き
 ## 通信プロトコル
 Task.actionで規定しているデータがやり取りできます。
 
-
+## 参考
+ロジックは公式wikiのものを大方流用しています 
+http://wiki.ros.org/actionlib\_tutorials/Tutorials/SimpleActionClient
