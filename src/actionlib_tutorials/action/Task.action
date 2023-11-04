@@ -1,0 +1,23 @@
+#このファイルから、catkin_makeにより/devel以下に.msg/.hが展開されます
+#Goal定義
+int32 sequence
+int32 order
+float64 robot_arm_goal_x
+float64 robot_arm_goal_y
+---
+#Result定義
+int32 sequence
+bool complete
+float64 robot_arm_result_x
+float64 robot_arm_result_y
+---
+#feedback定義
+int32 sequence
+int32 processing_seqno
+uint8 goal_status
+int32 robot_state
+float64 robot_arm_pos_x
+float64 robot_arm_pos_y
+float64 robot_arm_ff_x
+float64 robot_arm_ff_y
+
